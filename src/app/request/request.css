@@ -1,0 +1,79 @@
+.request {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 24px 200px;
+}
+.request .request-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding-top: 24px;
+  color: var(--text);
+}
+.request .request-banner > .features {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.request .request-banner > .desc {
+  font-size: 24px;
+  font-weight: 700;
+}
+.request .request-banner > .title {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.request .request-banner > .companies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.request .request-banner > .companies > img {
+  height: 24px;
+}
+.request .request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 500px;
+  height: 100%;
+  background: var(--card);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 24px;
+}
+.request .request-form > .desc {
+  font-size: 18px;
+  font-weight: 700;
+}
+.request .request-form > .title {
+  font-size: 38px;
+  font-weight: 700;
+}
+.request .request-form > form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.request .request-form > form > input {
+  height: 36px;
+  padding: 12px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--second);
+}
+.request .request-form > form > button {
+  background: var(--border);
+  color: var(--second);
+  height: 48px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--tran-04)
+}
+.request .request-form > form > button:hover {
+  opacity: 0.8;
+}

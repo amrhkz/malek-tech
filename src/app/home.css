@@ -1,0 +1,25 @@
+.home .about-us {
+  padding: 48px 200px;
+  display: flex;
+  gap: 48px;
+}
+.home .about-us img {
+  width: 400px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+.home .about-us > .content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: var(--text);
+}
+.home .about-us > .content > .title {
+  font-size: 24px;
+}
+.home .about-us > .content > .desc {
+  font-size: 18px;
+  text-align: justify;
+  color: var(--second);
+}
+

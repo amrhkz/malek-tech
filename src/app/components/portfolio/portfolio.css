@@ -1,0 +1,81 @@
+.portfolio {
+  color: var(--text);
+  padding: 48px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.portfolio > .title {
+  font-size: 36px;
+}
+.portfolio .portfolio-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
+.portfolio .portfolio-list .swiper-slide {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.portfolio .portfolio-list .swiper-slide .portfolio-item {
+  background: var(--card);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.portfolio .portfolio-list .swiper-slide .portfolio-item > .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+}
+.portfolio .portfolio-list .swiper-slide .portfolio-item > .content > .title {
+  font-size: 18px;
+  color: var(--text);
+}
+.portfolio .portfolio-list .swiper-slide .portfolio-item > .content > .desc {
+  font-size: 12px;
+  color: var(--second);
+  text-align: justify;
+}
+.portfolio .portfolio-list .swiper-slide .portfolio-item > .content > .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.portfolio
+  .portfolio-list
+  .swiper-slide
+  .portfolio-item
+  > .content
+  > .btns
+  > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--second);
+  width: 124px;
+  height: 36px;
+  border-radius: 6px;
+  transition: var(--tran-04);
+}
+.portfolio
+  .portfolio-list
+  .swiper-slide
+  .portfolio-item
+  > .content
+  > .btns
+  > a:hover {
+  background: var(--body);
+}
+.portfolio .portfolio-list .portfolio-item > img {
+  object-fit: contain;
+  height: 100%;
+}

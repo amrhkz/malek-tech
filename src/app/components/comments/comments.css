@@ -1,0 +1,62 @@
+.feed-back {
+  color: var(--text);
+  padding: 48px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.feed-back > .title {
+  font-size: 36px;
+}
+.feed-back .feed-back-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px;
+}
+.feed-back .feed-back-list .feed-back-item {
+  width: 250px;
+  min-height: 200px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  position: relative;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.feed-back .feed-back-list .feed-back-item > .user-row {
+  display: flex;
+  gap: 12px;
+}
+.feed-back .feed-back-list .feed-back-item > .user-row > img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+}
+.feed-back .feed-back-list .feed-back-item > .user-row > .user-info {
+  display: flex;
+  flex-direction: column;
+}
+.feed-back .feed-back-list .feed-back-item > .user-row > .user-info > .name {
+  font-size: 16px;
+}
+.feed-back .feed-back-list .feed-back-item > .user-row > .user-info > .role {
+  font-size: 11px;
+  color: var(--second);
+}
+.feed-back .feed-back-list .feed-back-item > .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  height: 100%;
+  font-size: 12px;
+  text-align: justify;
+}
+.feed-back .feed-back-list .feed-back-item > .content > .rate {
+  display: flex;
+  font-size: 24px;
+}

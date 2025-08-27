@@ -1,0 +1,52 @@
+.service-category {
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 48px 200px;
+}
+.service-category > .title {
+  font-size: 36px;
+}
+.service-category .service-category-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.service-category .service-category-list .service-category-item {
+  width: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+.service-category .service-category-item > .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+}
+.service-category .service-category-item > .card-content > .title {
+  font-size: 24px;
+  color: var(--text);
+}
+.service-category .service-category-item > .card-content > .desc {
+  font-size: 12px;
+  text-align: justify;
+  color: var(--second);
+}
+.service-category .service-category-item > .card-content > .hire-btn {
+  background: var(--body);
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  transition: var(--tran-04);
+}
+.service-category .service-category-item > .card-content > .hire-btn:hover {
+  background: var(--second);
+  color: var(--text);
+}
